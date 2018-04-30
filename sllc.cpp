@@ -150,6 +150,9 @@ if(head != NULL){
 			bantu=bantu->next;
 			poshapus++;
 		}
-				
+	hapus=bantu->next;
+	bantu->next=hapus->next;
+	delete hapus;
+	}		
 				
 				
