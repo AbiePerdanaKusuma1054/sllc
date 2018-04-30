@@ -143,7 +143,13 @@ if(head != NULL){
 	}
 	if((posisi_hapus<1)||(posisi_hapus>banyakdata)){
 	cout<<"Belum ada data !! masukkan Data Dahulu ! \n";}		
-				
+	else{
+		bantu=head;
+		poshapus=1;
+		while(poshapus<(posisi_hapus-1)){
+			bantu=bantu->next;
+			poshapus++;
+		}
 				
 				
 				
