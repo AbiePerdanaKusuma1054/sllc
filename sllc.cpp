@@ -18,3 +18,6 @@ int init(int nilai){
 		head = baru;
 		head->next = NULL;
 	}
+	else{
+		baru->next = head;
+		head = baru;
