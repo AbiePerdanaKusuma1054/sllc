@@ -129,10 +129,14 @@ void tampilkan_data(){
 		cout<<" ]";
 		}
 }
-void hapus_tengah()
-{
-  int banyakdata,posisi_hapus,poshapus;
-  node *hapus, *bantu;
+void hapus_tengah(){
+int banyakdata,posisi_hapus,poshapus;
+node *hapus, *bantu;
+if(head != NULL){
+	cout<<" Akan dihapus pada data ke : ";
+	cin>>posisi_hapus;
+	banyakdata=1;
+	bantu=head;
 				
 				
 				
