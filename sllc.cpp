@@ -41,8 +41,8 @@ void tambah_depan(){
 	}
 }
 void tambah_tengah(){
-        node *baru, *bantu;
-        int posisi_sisip;
+node *baru, *bantu;
+int posisi_sisip;
 	if(head != NULL){
 	cout<<"Akan disisip setelah Data Ke ? : ";
 	cin>>posisi_sisip;
@@ -127,8 +127,8 @@ void tampilkan_data(){
 		}
 }
 void hapus_tengah(){
-        int banyakdata,posisi_hapus,poshapus;
-        node *hapus, *bantu;
+int banyakdata,posisi_hapus,poshapus;
+node *hapus, *bantu;
 if(head != NULL){
 	cout<<" Akan dihapus pada data ke : ";
 	cin>>posisi_hapus;
@@ -154,7 +154,6 @@ if(head != NULL){
 }
 else {cout<<"Data Masih kosong ! ";}
 }
-
 int main(){
 	head=NULL;
 	init(1);
@@ -165,6 +164,7 @@ int main(){
 	init(6);		
 option:
 	tampilkan_data();
+	cout<<endl;
 	cout<<"Program Node"<<endl;
 	cout<<"Menu : "<<endl;
 	cout<<"1. Tambah Node Depan"<<endl;
