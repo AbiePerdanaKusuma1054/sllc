@@ -127,7 +127,7 @@ void tampilkan_data(){
 		}
 }
 void hapus_tengah(){
-int banyakdata,posisi_hapus,poshapus;
+        int banyakdata,posisi_hapus,poshapus;
 node *hapus, *bantu;
 if(head != NULL){
 	cout<<" Akan dihapus pada data ke : ";
@@ -154,6 +154,7 @@ if(head != NULL){
 }
 else {cout<<"Data Masih kosong ! ";}
 }
+
 int main(){
 	head=NULL;
 	init(1);
