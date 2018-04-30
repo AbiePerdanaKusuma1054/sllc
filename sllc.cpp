@@ -57,3 +57,7 @@ node *baru, *bantu;
       else
         break; 
     }
+  cout << "Masukkan data : ";
+  cin >> baru->data;
+  baru->next=bantu->next;
+  bantu->next=baru;
