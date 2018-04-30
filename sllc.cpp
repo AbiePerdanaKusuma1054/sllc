@@ -27,3 +27,6 @@ int init(int nilai){
 
 void tambah_depan(){
 	node *baru;
+	baru = new node;
+	cout<<"Masukkan data : ";
+	cin>>baru->data;
