@@ -114,6 +114,8 @@ void hapus_belakang(){
 	}
 void tampilkan_data(){
 	node *temp;	
-			
+	temp = head;
+	cout<<endl;
+	cout<<"Data [";	
 			
 			
