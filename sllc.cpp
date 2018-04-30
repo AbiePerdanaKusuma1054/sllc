@@ -54,11 +54,11 @@ int posisi_sisip;
 			else {
 				break; 
 			}
+			}
 			cout << "Masukkan data : ";
 			cin >> baru->data;
 			baru->next=bantu->next;
 			bantu->next=baru;
-			}
 	}
 	else{
 		cout<<"Belum ada data !! silahkan isi data dulu....";
