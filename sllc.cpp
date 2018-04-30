@@ -61,3 +61,6 @@ node *baru, *bantu;
   cin >> baru->data;
   baru->next=bantu->next;
   bantu->next=baru;
+  }
+  else
+  {
