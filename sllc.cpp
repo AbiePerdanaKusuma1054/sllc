@@ -187,6 +187,8 @@ option:
 			break;
 		case 4 : hapus_belakang();
 			break;
+		case 5 : tambah_tengah();
+			break;
 		default : cout<<"Pilihan salah om"<<endl;
 	}
 	tampilkan_data();
