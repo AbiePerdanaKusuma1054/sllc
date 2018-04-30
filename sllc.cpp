@@ -9,3 +9,6 @@ struct node{
 	node *head = NULL;
 	node *posisi;
 	int option = 0;
+int init(int nilai){
+	node *baru;
+	baru = new node;
