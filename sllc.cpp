@@ -15,3 +15,6 @@ int init(int nilai){
 	baru->data = nilai;
 	baru->next = NULL;
 	if (head == NULL){
+		head = baru;
+		head->next = NULL;
+	}
