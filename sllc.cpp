@@ -117,5 +117,7 @@ void tampilkan_data(){
 	temp = head;
 	cout<<endl;
 	cout<<"Data [";	
-			
+	if (temp == NULL)
+		cout<<"List kosong"<<endl;
+		else {	
 			
