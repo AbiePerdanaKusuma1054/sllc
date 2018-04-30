@@ -181,6 +181,8 @@ option:
 	switch(option){
 		case 1 : tambah_depan();
 			break;
+		case 2 : tambah_belakang();
+			break;
 		default : cout<<"Pilihan salah om"<<endl;
 	}
 	tampilkan_data();
