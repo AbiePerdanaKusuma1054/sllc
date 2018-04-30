@@ -79,3 +79,11 @@ void tambah_belakang(){
 	}
 	else{
 		temp2=head;
+		while(temp2->next!=NULL){
+			temp2=temp2->next;
+		}
+		temp2->next = temp;
+	}
+}
+void hapus_depan(){
+	node *temp1,*temp2;
