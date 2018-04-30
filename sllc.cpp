@@ -87,3 +87,6 @@ void tambah_belakang(){
 }
 void hapus_depan(){
 	node *temp1,*temp2;
+if(head==NULL)
+		cout<<"List kosong !"<<endl;
+	else {
