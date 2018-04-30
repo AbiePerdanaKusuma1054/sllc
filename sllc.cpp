@@ -24,3 +24,6 @@ int init(int nilai){
 	}
 	return 0;
 }
+
+void tambah_depan(){
+	node *baru;
