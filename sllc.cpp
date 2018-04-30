@@ -194,5 +194,7 @@ option:
 		default : cout<<"Pilihan salah om"<<endl;
 	}
 	tampilkan_data();
+	cout<<endl;
+	goto option;
 	return 0;
 }
