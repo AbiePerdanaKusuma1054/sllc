@@ -126,7 +126,9 @@ void tampilkan_data(){
 		cout<<" <<PosisiNode";
 		temp=temp->next;
 			}
-				
+		cout<<" ]";
+		}
+}	
 				
 				
 				
