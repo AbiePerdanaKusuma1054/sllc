@@ -85,5 +85,3 @@ void tambah_belakang(){
 		temp2->next = temp;
 	}
 }
-void hapus_depan(){
-	node *temp1,*temp2;
