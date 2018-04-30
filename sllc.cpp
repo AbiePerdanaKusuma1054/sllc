@@ -183,3 +183,6 @@ option:
 			break;
 		default : cout<<"Pilihan salah om"<<endl;
 	}
+	tampilkan_data();
+	return 0;
+}
