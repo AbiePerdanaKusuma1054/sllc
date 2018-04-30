@@ -21,3 +21,6 @@ int init(int nilai){
 	else{
 		baru->next = head;
 		head = baru;
+	}
+	return 0;
+}
