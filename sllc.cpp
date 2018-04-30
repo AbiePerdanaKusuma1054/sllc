@@ -102,7 +102,9 @@ void hapus_depan(){
 	}
 		delete temp1;
 		temp2->next=NULL;
-			
+		}
+	}
+		
 			
 			
 			
