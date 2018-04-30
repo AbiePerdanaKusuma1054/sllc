@@ -178,3 +178,8 @@ option:
 	cout<<"6. Hapus Node Tertentu"<<endl;
 	cout<<"Masukkan pilihan : ";
 	cin>>option;
+	switch(option){
+		case 1 : tambah_depan();
+			break;
+		default : cout<<"Pilihan salah om"<<endl;
+	}
