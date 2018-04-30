@@ -154,5 +154,8 @@ if(head != NULL){
 	bantu->next=hapus->next;
 	delete hapus;
 	}		
-				
+}
+else {
+	cout<<"Data Masih kosong ! ";
+}			
 				
