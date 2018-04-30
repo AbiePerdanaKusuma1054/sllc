@@ -137,7 +137,12 @@ if(head != NULL){
 	cin>>posisi_hapus;
 	banyakdata=1;
 	bantu=head;
-				
+	while(bantu->next != NULL){
+		bantu=bantu->next;
+		banyakdata++;
+	}
+	if((posisi_hapus<1)||(posisi_hapus>banyakdata)){
+	cout<<"Belum ada data !! masukkan Data Dahulu ! \n";}		
 				
 				
 				
