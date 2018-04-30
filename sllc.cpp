@@ -96,3 +96,13 @@ void hapus_depan(){
 	head=NULL;
 		}
 		else {
+		while(temp1->next!=NULL){
+		temp2 = temp1;
+		temp1=temp1->next;
+
+			
+			
+			
+			
+			
+			
