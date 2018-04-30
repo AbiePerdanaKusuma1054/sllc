@@ -40,32 +40,29 @@ void tambah_depan(){
 		head = baru;
 	}
 }
-void tambah_tengah()
-{
+void tambah_tengah(){
 node *baru, *bantu;
-  int posisi_sisip;
-  if(head != NULL)
-  {
-    cout<<"Akan disisip setelah Data Ke ? : ";
-    cin>>posisi_sisip;
-    baru =new node;
-   bantu=head;
-     
-    for(int i=1;i<posisi_sisip-1;i++) {
-      if(bantu->next != NULL)
-        bantu=bantu->next;
-      else
-        break; 
-    }
-  cout << "Masukkan data : ";
-  cin >> baru->data;
-  baru->next=bantu->next;
-  bantu->next=baru;
-  }
-  else
-  {
-    cout<<"Belum ada data !! silahkan isi data dulu....";
-  }
+int posisi_sisip;
+	if(head != NULL){
+	cout<<"Akan disisip setelah Data Ke ? : ";
+	cin>>posisi_sisip;
+	baru =new node;
+	bantu=head;   
+		for(int i=1;i<posisi_sisip-1;i++) {
+			if(bantu->next != NULL)
+				bantu=bantu->next;
+			else {
+				break; 
+			}
+			cout << "Masukkan data : ";
+			cin >> baru->data;
+			baru->next=bantu->next;
+			bantu->next=baru;
+			}
+	}
+	else{
+		cout<<"Belum ada data !! silahkan isi data dulu....";
+	}
 } 
 void tambah_belakang(){
 	node *temp, *temp2;
@@ -155,9 +152,8 @@ if(head != NULL){
 	delete hapus;
 	}		
 }
-else {
-	cout<<"Data Masih kosong ! ";
-}			
+else {cout<<"Data Masih kosong ! ";}
+}
 int main(){
 	head=NULL;
 	init(1);
@@ -191,7 +187,7 @@ option:
 			break;
 		case 6 : hapus_tengah();
 			break;
-		default : cout<<"Pilihan salah om"<<endl;
+		default : cout<<"Pilihan salah !"<<endl;
 	}
 	tampilkan_data();
 	cout<<endl;
