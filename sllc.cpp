@@ -99,7 +99,9 @@ void hapus_depan(){
 		while(temp1->next!=NULL){
 		temp2 = temp1;
 		temp1=temp1->next;
-
+	}
+		delete temp1;
+		temp2->next=NULL;
 			
 			
 			
