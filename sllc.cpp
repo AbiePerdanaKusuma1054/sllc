@@ -158,4 +158,11 @@ if(head != NULL){
 else {
 	cout<<"Data Masih kosong ! ";
 }			
-				
+int main(){
+	head=NULL;
+	init(1);
+	init(2);
+	init(3);
+	init(4);
+	init(5);
+	init(6);		
