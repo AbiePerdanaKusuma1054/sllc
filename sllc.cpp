@@ -108,7 +108,9 @@ void hapus_depan(){
 	}
 void hapus_belakang(){
 	node *temp;
-			
+	temp = head;
+	head=head->next;
+	delete temp;	
 			
 			
 			
