@@ -42,3 +42,7 @@ void tambah_depan(){
 }
 void tambah_tengaht()
 {
+node *baru, *bantu;
+  int posisi_sisip;
+  if(head != NULL)
+  {
