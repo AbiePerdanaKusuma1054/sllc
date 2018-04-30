@@ -41,7 +41,7 @@ void tambah_depan(){
 	}
 }
 void tambah_tengah(){
-node *baru, *bantu;
+        node *baru, *bantu;
 int posisi_sisip;
 	if(head != NULL){
 	cout<<"Akan disisip setelah Data Ke ? : ";
