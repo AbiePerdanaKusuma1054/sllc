@@ -93,3 +93,6 @@ void hapus_depan(){
 	temp1=head;
 		if(temp1->next==NULL){
 			delete temp1;
+	head=NULL;
+		}
+		else {
