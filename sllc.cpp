@@ -64,3 +64,6 @@ node *baru, *bantu;
   }
   else
   {
+    cout<<"Belum ada data !! silahkan isi data dulu....";
+  }
+} 
