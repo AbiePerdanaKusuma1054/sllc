@@ -50,3 +50,10 @@ node *baru, *bantu;
     cin>>posisi_sisip;
     baru =new node;
    bantu=head;
+     
+    for(int i=1;i<posisi_sisip-1;i++) {
+      if(bantu->next != NULL)
+        bantu=bantu->next;
+      else
+        break; 
+    }
