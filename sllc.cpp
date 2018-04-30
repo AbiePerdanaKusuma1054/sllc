@@ -185,6 +185,8 @@ option:
 			break;
 		case 3 : hapus_depan();
 			break;
+		case 4 : hapus_belakang();
+			break;
 		default : cout<<"Pilihan salah om"<<endl;
 	}
 	tampilkan_data();
