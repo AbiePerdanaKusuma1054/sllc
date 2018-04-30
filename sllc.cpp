@@ -170,3 +170,11 @@ option:
 	tampilkan_data();
 	cout<<"Program Node"<<endl;
 	cout<<"Menu : "<<endl;
+	cout<<"1. Tambah Node Depan"<<endl;
+	cout<<"2. Tambah Node Belakang"<<endl;
+	cout<<"3. Hapus Node Depan"<<endl;
+	cout<<"4. Hapus Node Belakang"<<endl;
+	cout<<"5. Tambah Node Tertentu"<<endl;
+	cout<<"6. Hapus Node Tertentu"<<endl;
+	cout<<"Masukkan pilihan : ";
+	cin>>option;
