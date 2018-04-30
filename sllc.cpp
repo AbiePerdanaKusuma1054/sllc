@@ -75,3 +75,7 @@ void tambah_belakang(){
 	temp->next=NULL;
 	if (head==NULL){
 		head = temp;
+		posisi = head;
+	}
+	else{
+		temp2=head;
