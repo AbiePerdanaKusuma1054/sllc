@@ -30,3 +30,6 @@ void tambah_depan(){
 	baru = new node;
 	cout<<"Masukkan data : ";
 	cin>>baru->data;
+	baru->next=NULL;
+	if (head==NULL){
+		head = baru;
