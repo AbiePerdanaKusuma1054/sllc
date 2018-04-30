@@ -111,7 +111,9 @@ void hapus_belakang(){
 	temp = head;
 	head=head->next;
 	delete temp;	
-			
+	}
+void tampilkan_data(){
+	node *temp;	
 			
 			
 			
