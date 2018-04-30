@@ -12,3 +12,6 @@ struct node{
 int init(int nilai){
 	node *baru;
 	baru = new node;
+	baru->data = nilai;
+	baru->next = NULL;
+	if (head == NULL){
