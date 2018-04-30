@@ -123,7 +123,9 @@ void tampilkan_data(){
 			while (temp!=NULL){
 			cout<<" "<<temp->data<<",";
 			if (temp == posisi)
-
+		cout<<" <<PosisiNode";
+		temp=temp->next;
+			}
 				
 				
 				
