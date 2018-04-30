@@ -36,3 +36,6 @@ void tambah_depan(){
 	head->next = NULL;
 }
 	else {
+		baru->next = head;
+		head = baru;
+	}
