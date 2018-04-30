@@ -73,3 +73,5 @@ void tambah_belakang(){
 	cout<<"Masukkan data";
 	cin>>temp->data;
 	temp->next=NULL;
+	if (head==NULL){
+		head = temp;
