@@ -39,3 +39,6 @@ void tambah_depan(){
 		baru->next = head;
 		head = baru;
 	}
+}
+void tambah_tengaht()
+{
