@@ -166,3 +166,7 @@ int main(){
 	init(4);
 	init(5);
 	init(6);		
+option:
+	tampilkan_data();
+	cout<<"Program Node"<<endl;
+	cout<<"Menu : "<<endl;
