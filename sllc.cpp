@@ -5,10 +5,10 @@ using namespace std;
 struct node{
 	int data;
 	node *next;
-	};
-	node *head = NULL;
-	node *posisi;
-	int option = 0;
+};
+node *head = NULL;
+node *posisi;
+int option = 0;
 int init(int nilai){
 	node *baru;
 	baru = new node;
@@ -40,7 +40,7 @@ void tambah_depan(){
 		head = baru;
 	}
 }
-void tambah_tengaht()
+void tambah_tengah()
 {
 node *baru, *bantu;
   int posisi_sisip;
@@ -128,7 +128,11 @@ void tampilkan_data(){
 			}
 		cout<<" ]";
 		}
-}	
+}
+void hapus_tengah()
+{
+  int banyakdata,posisi_hapus,poshapus;
+  node *hapus, *bantu;
 				
 				
 				
