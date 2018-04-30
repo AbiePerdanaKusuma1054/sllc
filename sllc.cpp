@@ -69,3 +69,7 @@ node *baru, *bantu;
 } 
 void tambah_belakang(){
 	node *temp, *temp2;
+        temp = new node;
+	cout<<"Masukkan data";
+	cin>>temp->data;
+	temp->next=NULL;
