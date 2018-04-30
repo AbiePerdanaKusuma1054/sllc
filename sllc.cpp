@@ -128,7 +128,7 @@ void tampilkan_data(){
 }
 void hapus_tengah(){
         int banyakdata,posisi_hapus,poshapus;
-node *hapus, *bantu;
+        node *hapus, *bantu;
 if(head != NULL){
 	cout<<" Akan dihapus pada data ke : ";
 	cin>>posisi_hapus;
