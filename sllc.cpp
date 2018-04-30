@@ -120,4 +120,13 @@ void tampilkan_data(){
 	if (temp == NULL)
 		cout<<"List kosong"<<endl;
 		else {	
-			
+			while (temp!=NULL){
+			cout<<" "<<temp->data<<",";
+			if (temp == posisi)
+
+				
+				
+				
+				
+				
+				
