@@ -67,3 +67,5 @@ node *baru, *bantu;
     cout<<"Belum ada data !! silahkan isi data dulu....";
   }
 } 
+void tambah_belakang(){
+	node *temp, *temp2;
