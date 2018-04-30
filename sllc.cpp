@@ -104,7 +104,10 @@ void hapus_depan(){
 		temp2->next=NULL;
 		}
 	}
-		
+	
+	}
+void hapus_belakang(){
+	node *temp;
 			
 			
 			
