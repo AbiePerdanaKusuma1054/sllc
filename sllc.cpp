@@ -46,3 +46,7 @@ node *baru, *bantu;
   int posisi_sisip;
   if(head != NULL)
   {
+    cout<<"Akan disisip setelah Data Ke ? : ";
+    cin>>posisi_sisip;
+    baru =new node;
+   bantu=head;
